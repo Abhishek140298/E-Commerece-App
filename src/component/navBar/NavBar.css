@@ -1,17 +1,24 @@
 .nav_div {
-	background-color: aqua;
-	display: flex;
-	align-items: center;
-	height: 50px;
+  background-color: #4dff88;
+  display: flex;
+  align-items: center;
+  height: 50px;
 }
 .home_span {
-	font-size: 30px;
-	margin-left: 20px;
-	margin-right: 30px;
-
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 .nav_sub_div {
-background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  padding-right: 50px;
 }
 .nav_option {
+  font-size: 20px;
+  margin-left: 20px;
+	color:white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
