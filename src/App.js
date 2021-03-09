@@ -7,7 +7,7 @@ export default class App extends React.Component {
     return (
       <>
   
-        <h1>shop here</h1>
+    
         <Home />
       </>
     );
