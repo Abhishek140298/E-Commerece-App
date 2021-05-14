@@ -1,0 +1,24 @@
+.main_product_div{
+	display:flex;
+	justify-content: center;
+
+
+}
+.product_full_image{
+	margin-right: 50px;
+width: 30vw;
+border-radius: 15px;
+}
+
+.product_details{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	
+}
+.add_to_cart_button{
+	
+}
+.buy_button{
+	
+}

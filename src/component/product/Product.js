@@ -1,17 +1,17 @@
 import React from 'react';
-import Products from './Products';
+import './Product.css'
 
 const Product =()=>{
-	return(<div>
-	<img src='https://5.imimg.com/data5/GL/KU/LT/SELLER-29605436/mens-nike-sports-shoes-500x500.jpg'/>
-<div>
-<span>Nike</span>
+	return(<div className='main_product_div'>
+	<img className='product_full_image' src='https://5.imimg.com/data5/GL/KU/LT/SELLER-29605436/mens-nike-sports-shoes-500x500.jpg'/>
+<div className='product_details'>
+<span >Nike</span>
 <span>Shoes</span>
 <span>Rating</span>
 <span>Price</span>
 <div>
-<span>Add to cart</span>
-<span>Buy</span>
+<span className='add_to_cart_button'>Add to cart</span>
+<span className='buy_button'>Buy</span>
 </div>
 </div>
 	
