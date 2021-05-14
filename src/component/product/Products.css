@@ -1,0 +1,10 @@
+.main_div{
+	background-color: red;
+}
+
+.product_div{
+	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
